@@ -3,6 +3,8 @@
 #𝐼𝐷𝐹(𝑡)=1+log𝑒(1 + Total number of documents in collection)/(1+Number of documents with term t in it)
 #𝑇𝐹(𝑡)=Number of times term t appears in a document/Total number of terms in the document
 
+
+
 from collections import Counter
 from tqdm import tqdm
 from scipy.sparse import csr_matrix
@@ -15,6 +17,8 @@ import pandas as pd
 
 # Using the same given in references.
 #function for fit for tfidf vector
+
+
 def fit(corpus):
     """
     This function gives all unique words in a particular document
