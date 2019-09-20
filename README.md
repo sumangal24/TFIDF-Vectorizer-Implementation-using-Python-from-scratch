@@ -5,6 +5,9 @@
 
 
 
+
+
+
 from collections import Counter
 from tqdm import tqdm
 from scipy.sparse import csr_matrix
@@ -15,7 +18,6 @@ import numpy as np
 import pandas as pd
 
 
-# Using the same given in references.
 #function for fit for tfidf vector
 
 
